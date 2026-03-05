@@ -1,0 +1,180 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+* {
+    margin: 0;
+}
+
+.itens {
+    display: flex;
+    gap: 15px;
+}
+
+.botao {
+    background-color: #be580f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+.imagem img {
+    width: 100vw;
+    height: 88vh;
+    object-fit: cover;
+    opacity: 40%;
+    z-index: 2;
+}
+
+.imagem {
+    background-color: black;
+    z-index: 1;
+
+}
+
+.hero {
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(assets/capa.jpg);
+
+}
+
+.hero h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hero p {
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+.pesquisa {
+    padding: 1vh 2vw 1vh 1vw;
+    border: none;
+    outline-color: #be580f;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.input_container {
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: rgba(213, 213, 213, 0.434);
+}
+
+.livros {
+    height: 100vh;
+    padding: 2vw;
+}
+
+.grupocard {
+    display: flex;
+    /* Coloca os cards lado a lado */
+    justify-content: space-between;
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.card1 {
+    background-color: rgba(216, 168, 119, 0.317);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    margin: 0 2vw;
+}
+
+.imagem1 {
+    width: 250px;
+    /* Tamanho da imagem */
+    height: 350px;
+    object-fit: cover;
+    /* Ajusta sem distorcer */
+    border-radius: 15px;
+    /* Opcional: imagem redonda */
+}
+
+.card2 {
+    background-color: rgba(216, 168, 119, 0.317);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    margin: 0 2vw;
+}
+
+.imagem2 {
+    width: 250px;
+    /* Tamanho da imagem */
+    height: 350px;
+    object-fit: cover;
+    /* Ajusta sem distorcer */
+    border-radius: 15px;
+    /* Opcional: imagem redonda */
+}
+
+.card3 {
+    background-color: rgba(216, 168, 119, 0.317);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    margin: 0 2vw;
+}
+
+.imagem3 {
+    width: 250px;
+    /* Tamanho da imagem */
+    height: 350px;
+    object-fit: cover;
+    /* Ajusta sem distorcer */
+    border-radius: 15px;
+    /* Opcional: imagem redonda */
+}
+
+.card4 {
+    background-color: rgba(216, 167, 119, 0.317);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    margin: 0 2vw;
+
+}
+
+.imagem4 {
+    width: 250px;
+    /* Tamanho da imagem */
+    height: 350px;
+    object-fit: cover;
+    /* Ajusta sem distorcer */
+    border-radius: 15px;
+    /* Opcional: imagem redonda */
+}
