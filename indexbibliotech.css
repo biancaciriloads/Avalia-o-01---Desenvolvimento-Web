@@ -90,91 +90,53 @@
 .grupocard {
     display: flex;
     /* Coloca os cards lado a lado */
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     /* Centraliza verticalmente */
     margin: 10px;
     padding: 20px;
 }
 
-
 .card1 {
     background-color: rgba(216, 168, 119, 0.317);
-    width: 250px;
-    height: 350px;
+    width: 25%;
+    height: 600px;
     border-radius: 15px;
-    color: white;
+    color: black;
     display: flex;
-    margin: 0 2vw;
+    margin: 2vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh 1vw 1vh 1vw;
+
+
 }
 
 .imagem1 {
-    width: 250px;
+    width: 70%;
     /* Tamanho da imagem */
-    height: 350px;
-    object-fit: cover;
-    /* Ajusta sem distorcer */
-    border-radius: 15px;
-    /* Opcional: imagem redonda */
+    height: 65%;
+    padding: 0vw 1vw 1vh 1vw;
+    align-items: flex-start;
+
 }
 
-.card2 {
-    background-color: rgba(216, 168, 119, 0.317);
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
+.titulo {
+
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.botaocomprar {
+    background-color: #be580f;
     color: white;
-    display: flex;
-    margin: 0 2vw;
-}
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    justify-content: center;
 
-.imagem2 {
-    width: 250px;
-    /* Tamanho da imagem */
-    height: 350px;
-    object-fit: cover;
-    /* Ajusta sem distorcer */
-    border-radius: 15px;
-    /* Opcional: imagem redonda */
-}
-
-.card3 {
-    background-color: rgba(216, 168, 119, 0.317);
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    color: white;
-    display: flex;
-    margin: 0 2vw;
-}
-
-.imagem3 {
-    width: 250px;
-    /* Tamanho da imagem */
-    height: 350px;
-    object-fit: cover;
-    /* Ajusta sem distorcer */
-    border-radius: 15px;
-    /* Opcional: imagem redonda */
-}
-
-.card4 {
-    background-color: rgba(216, 167, 119, 0.317);
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    color: white;
-    display: flex;
-    margin: 0 2vw;
-
-}
-
-.imagem4 {
-    width: 250px;
-    /* Tamanho da imagem */
-    height: 350px;
-    object-fit: cover;
-    /* Ajusta sem distorcer */
-    border-radius: 15px;
-    /* Opcional: imagem redonda */
 }
