@@ -42,14 +42,16 @@
 }
 
 .hero {
-    width: 100vw;
-    height: 98vh;
+    width: 98vw;
+    height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
     background-image: url(assets/capa.jpg);
+    margin: 0%;
+
 
 }
 
@@ -83,24 +85,33 @@
 }
 
 .livros {
-    height: 100vh;
-    padding: 2vw;
+    height: 90vh;
+    padding: 10vw;
 }
 
 .grupocard {
-    display: flex;
-    /* Coloca os cards lado a lado */
     justify-content: flex-start;
     align-items: center;
-    /* Centraliza verticalmente */
-    margin: 10px;
-    padding: 20px;
+    margin: 0%;
+    background-color: rgba(210, 208, 206, 0.131);
+    width: 98vw;
+    height: 88vh;
+
+}
+
+.grupocard h2 {
+    color: black;
+}
+
+.cardcontainer {
+    display: flex;
+
 }
 
 .card1 {
-    background-color: rgba(216, 168, 119, 0.317);
+    background-color: white;
     width: 25%;
-    height: 600px;
+    height: 500px;
     border-radius: 15px;
     color: black;
     display: flex;
@@ -109,34 +120,113 @@
     align-items: center;
     flex-direction: column;
     padding: 1vh 1vw 1vh 1vw;
-
-
 }
 
 .imagem1 {
     width: 70%;
-    /* Tamanho da imagem */
     height: 65%;
     padding: 0vw 1vw 1vh 1vw;
     align-items: flex-start;
+    border-style: none;
 
 }
 
 .titulo {
-
     font-size: 20px;
     justify-content: flex-end;
     align-items: flex-end;
+    color: black;
+
+}
+
+.autor {
+    font-size: 15px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: grey;
 
 }
 
 .botaocomprar {
-    background-color: #be580f;
-    color: white;
+    background-color: #b69b8754;
+    color: #be580f;
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
-    outline: none;
-    justify-content: center;
+    justify-content: space-around;
+    font-weight: bold;
 
+}
+
+.botoestopo {
+    display: flex;
+    justify-content: space-between;
+    align-items: nowrap;
+    padding: 2vw 4vw 0vw 1vw;
+    color: #be580f;
+}
+
+.bloco3 {
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0%;
+    padding: 20px;
+    background-color: #b69b8754;
+    width: 98vw;
+    height: 88vh;
+}
+
+.stayconected {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #be580f;
+    font-size: 10px;
+    padding: 3vw 0vw 0vw 2vw;
+
+}
+
+.upcoming {
+    display: flex;
+    justify-content: space-between;
+    align-items: nowrap;
+    padding: 1vw 3vw 0vw 1vw;
+    color: black;
+}
+
+.calendar {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.calendarcontainer {
+    display: flex;
+}
+
+.calend1 {
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    margin: 2vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+.text-btn {
+    color: #be580f;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    align-items: flex-end;
 }
