@@ -21,8 +21,13 @@
     border-radius: 10px;
     padding: 10px 20px;
     outline: none;
+    cursor: pointer;
 }
 
+.botao:hover {
+    background-color: #be580fa0;
+    
+}
 .logo {
     width: 200px;
 }
@@ -76,6 +81,8 @@
     font-size: 1rem;
     border-radius: 10px;
     width: 400px;
+    cursor: pointer;
+
 }
 
 .input_container {
@@ -101,6 +108,7 @@
 
 .grupocard h2 {
     color: black;
+    font-size:medium
 }
 
 .cardcontainer {
@@ -111,7 +119,7 @@
 .card1 {
     background-color: white;
     width: 25%;
-    height: 500px;
+    height: 400px;
     border-radius: 15px;
     color: black;
     display: flex;
@@ -133,10 +141,12 @@
 
 .titulo {
     font-size: 20px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     color: black;
-
+    padding: 1vh 0vw 1vh 0vw;
+    text-align: center;
+    font-size: medium;
 }
 
 .autor {
@@ -144,18 +154,26 @@
     justify-content: flex-end;
     align-items: flex-end;
     color: grey;
-
+    padding: 1vh 0vw 1vh 0vw;
+    font-size: small;
+        
 }
 
-.botaocomprar {
+.borrow {
     background-color: #b69b8754;
     color: #be580f;
     border: none;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 15px 10px 15px;
     justify-content: space-around;
     font-weight: bold;
-
+    width: 230px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.borrow:hover {
+    background-color: #be580f;
+    color: white;
 }
 
 .botoestopo {
@@ -164,26 +182,42 @@
     align-items: nowrap;
     padding: 2vw 4vw 0vw 1vw;
     color: #be580f;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+.botoestopo h3{
+    font-size: 14px;
+ 
 }
 
+.botoestopo h3:hover{
+    color: #be580fa0;
+}
+.botoestopo h2{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
 .bloco3 {
     justify-content: flex-start;
     align-items: center;
     margin: 0%;
-    padding: 20px;
+    padding: 0;
     background-color: #b69b8754;
     width: 98vw;
-    height: 88vh;
+    height: 70vh;
+        
 }
 
-.stayconected {
+.stayconected h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
     color: #be580f;
     font-size: 10px;
-    padding: 3vw 0vw 0vw 2vw;
+    padding: 3vw 0vw 0vw 4vw;
 
 }
 
@@ -191,8 +225,15 @@
     display: flex;
     justify-content: space-between;
     align-items: nowrap;
-    padding: 1vw 3vw 0vw 1vw;
+    padding: 0vw 4vw 0vw 4vw;
     color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.upcoming h2 {
+    font-size: 20px;
+    
 }
 
 .calendar {
@@ -201,11 +242,21 @@
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
-    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.calendar:hover {
+    background-color: #be580f;
+    color: white;
+
+
 }
 
 .calendarcontainer {
     display: flex;
+    justify-content: space-around;
+        
 }
 
 .calend1 {
@@ -216,10 +267,13 @@
     color: black;
     display: flex;
     margin: 2vw;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
-    padding: 1vh 1vw 1vh 1vw;
+    position: relative;
+    text-align: left;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+
 }
 
 .text-btn {
@@ -228,5 +282,77 @@
     font-weight: bold;
     border: none;
     background-color: transparent;
-    align-items: flex-end;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    font-size:0,5rem;
+    justify-content: flex-start;
+        
 }
+.register {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    vertical-align: middle;
+    color: #be580f;
+    cursor: pointer;
+}
+
+.topo {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #be580f;
+    cursor:pointer;
+}
+
+.evento {
+    display: flex;
+    text-align: left;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    
+}   
+.sub {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "inter", sans-serif;
+    font-size: small;
+    color: grey;
+}
+.data-icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 45px;
+    line-height: 1.1;
+    font-family: sans-serif;
+    position: relative;
+    top:20px;
+    left:25px;
+    background-color: #b69b878e;
+    border: none;
+    border-radius: 3px;
+
+    
+}
+.data-icone .dia{
+    font-size: 13px;
+    font-weight:bold;
+    color: #be580f;
+    padding: 2px 0px 2px 0px;
+}
+.data-icone .mes{
+    font-size: 9px;
+    font-weight:bold;
+    color:#be580f;
+    padding: 2px 0px 2px 0px;
+} 
