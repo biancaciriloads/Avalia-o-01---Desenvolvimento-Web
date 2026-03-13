@@ -26,8 +26,9 @@
 
 .botao:hover {
     background-color: #be580fa0;
-    
+
 }
+
 .logo {
     width: 200px;
 }
@@ -108,7 +109,7 @@
 
 .grupocard h2 {
     color: black;
-    font-size:medium
+    font-size: medium
 }
 
 .cardcontainer {
@@ -156,7 +157,7 @@
     color: grey;
     padding: 1vh 0vw 1vh 0vw;
     font-size: small;
-        
+
 }
 
 .borrow {
@@ -168,9 +169,10 @@
     justify-content: space-around;
     font-weight: bold;
     width: 230px;
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.3s;
 }
+
 .borrow:hover {
     background-color: #be580f;
     color: white;
@@ -185,20 +187,23 @@
     font-family: "Inter", sans-serif;
     cursor: pointer;
 }
-.botoestopo h3{
+
+.botoestopo h3 {
     font-size: 14px;
- 
+
 }
 
-.botoestopo h3:hover{
+.botoestopo h3:hover {
     color: #be580fa0;
 }
-.botoestopo h2{
+
+.botoestopo h2 {
     font-size: 20px;
     margin-left: 20px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
+
 .bloco3 {
     justify-content: flex-start;
     align-items: center;
@@ -207,10 +212,10 @@
     background-color: #b69b8754;
     width: 98vw;
     height: 70vh;
-        
+
 }
 
-.stayconected h2{
+.stayconected h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -231,9 +236,10 @@
     font-weight: bold;
     font-size: 14px;
 }
+
 .upcoming h2 {
     font-size: 20px;
-    
+
 }
 
 .calendar {
@@ -246,6 +252,7 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
 .calendar:hover {
     background-color: #be580f;
     color: white;
@@ -256,7 +263,7 @@
 .calendarcontainer {
     display: flex;
     justify-content: space-around;
-        
+
 }
 
 .calend1 {
@@ -289,10 +296,11 @@
     align-items: center;
     gap: 8px;
     padding: 0;
-    font-size:0,5rem;
+    font-size: 0, 5rem;
     justify-content: flex-start;
-        
+
 }
+
 .register {
     display: flex;
     justify-content: flex-start;
@@ -303,11 +311,10 @@
 }
 
 .topo {
-    position: absolute;
     top: 20px;
     right: 30px;
     color: #be580f;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .evento {
@@ -317,8 +324,9 @@
     font-size: 15px;
     font-weight: bold;
     margin: 0;
-    
-}   
+
+}
+
 .sub {
     display: flex;
     justify-content: flex-start;
@@ -326,6 +334,7 @@
     font-size: small;
     color: grey;
 }
+
 .data-icone {
     display: flex;
     flex-direction: column;
@@ -333,26 +342,29 @@
     align-items: center;
     width: 35px;
     height: 45px;
-    line-height: 1.1;
     font-family: sans-serif;
-    position: relative;
-    top:20px;
-    left:25px;
     background-color: #b69b878e;
     border: none;
     border-radius: 3px;
 
-    
 }
-.data-icone .dia{
+
+.data-icone .dia {
     font-size: 13px;
-    font-weight:bold;
+    font-weight: bold;
     color: #be580f;
-    padding: 2px 0px 2px 0px;
+
 }
-.data-icone .mes{
+
+.data-icone .mes {
     font-size: 9px;
-    font-weight:bold;
-    color:#be580f;
-    padding: 2px 0px 2px 0px;
-} 
+    font-weight: bold;
+    color: #be580f;
+}
+
+.cabecalhocard {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
