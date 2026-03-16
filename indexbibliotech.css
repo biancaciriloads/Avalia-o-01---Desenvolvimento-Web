@@ -64,7 +64,11 @@
 .hero h1 {
     color: white;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3rem;
+            
+}
+.destaque {
+    color:#be580f;
 }
 
 .hero p {
@@ -264,67 +268,60 @@
     display: flex;
     justify-content: space-around;
 
+
 }
 
 .calend1 {
     background-color: white;
     width: 25%;
-    height: 250px;
+    height: 200px;
     border-radius: 15px;
     color: black;
     display: flex;
     margin: 2vw;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-    position: relative;
-    text-align: left;
     align-items: center;
-    padding: 15px 10px 15px 10px;
-
+ 
 }
 
 .text-btn {
     color: #be580f;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     border: none;
     background-color: transparent;
-    cursor: pointer;
-    text-align: left;
-    position: relative;
-    display: inline-flex;
-    align-items: center;
+    display: flex;
     gap: 8px;
-    padding: 0;
-    font-size: 0, 5rem;
-    justify-content: flex-start;
-
+    justify-content: flex-start; 
+    align-items: center;
+    cursor:pointer;
 }
 
 .register {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
-    vertical-align: middle;
-    color: #be580f;
-    cursor: pointer;
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+    padding:15px 0px 10px 10px;
+    
 }
 
 .topo {
-    top: 20px;
-    right: 30px;
     color: #be580f;
     cursor: pointer;
 }
 
 .evento {
     display: flex;
-    text-align: left;
     font-family: "inter", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
-    margin: 0;
-
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+  
+       
 }
 
 .sub {
@@ -333,6 +330,9 @@
     font-family: "inter", sans-serif;
     font-size: small;
     color: grey;
+    padding-top: 15px;
+    margin-left: 15px;
+    
 }
 
 .data-icone {
@@ -350,21 +350,100 @@
 }
 
 .data-icone .dia {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     color: #be580f;
 
 }
 
 .data-icone .mes {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: bold;
     color: #be580f;
 }
 
 .cabecalhocard {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 10px;
+   
+}
+.blocoajudar{
+    background-color: rgba(210, 208, 206, 0.131);
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 70vh;
+    margin:0;
+    
+}
+   
+.help {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    font-family: sans-serif;
+   
+}
+.help h2{
+    font-size: 35px;
+    color: black;
+    padding: 25px 0px 15px 0px;
+
+}
+.help p{
+    font-size: medium;
+    color: grey;
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
     
 
+}
+.servicos {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 50px;
+        
+}
+.icones {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    
+}
+.icones p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: grey;
+} 
+
+.icones h3{
+    margin-bottom: 10px;
+    font-weight:bold;
+    font-size:20px;
+    color:black;
+    font-family: sans-serif;;
+}
+
+.icones span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #be580f;
+    color:white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto 15px;
+    
 }
