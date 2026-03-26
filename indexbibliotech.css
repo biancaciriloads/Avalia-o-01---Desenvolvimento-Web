@@ -471,7 +471,7 @@
     gap: 30px;
 }
 
-.footer-col {
+.footer {
     flex: 1 1 270px;
         
 }
@@ -489,15 +489,14 @@
     color: #be580f; 
 }
 
-.footer-col h3 {
+.footer h3 {
     font-size: 18px;
     margin-bottom: 20px;
     color: #ffffff;
     padding: 0px 0px 0px 50px;
 }
-
 /* Texto e Listas */
-.footer-col p {
+.footer p {
     font-size: 14px;
     line-height: 1.6;
     color: #cccccc;
@@ -508,7 +507,6 @@
     padding: 0px 10px 0px 50px;
     
 }
-
 .contact-list li {
     display: flex;
     align-items: center;
@@ -547,7 +545,13 @@
     font-weight: bold;
 }
 
-/* Rodapé Final */
+.social-icone{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+
+}
+
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #333;
